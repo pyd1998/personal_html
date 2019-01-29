@@ -1,0 +1,81 @@
+﻿
+#maindiv
+{
+    width: 1339px;
+    height: 1004px;
+    background-image: url(../resourse/mainpage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#famouswords{
+    position:absolute;
+    top:120px;
+    left:350px;
+    width:600px;
+    height:100px;
+    font-size:xx-large;
+    font-style:italic;
+}
+#hellowords{
+    position:absolute;
+    top:300px;
+    left:100px;
+    width:200px;
+    height:300px;
+    font-size:x-large;
+    font-style:oblique;
+}
+#welcomewords {
+    position: absolute;
+    top: 600px;
+    left: 420px;
+    width: 500px;
+    height: 100px;
+    text-shadow: 3px 3px 3px #ff0000;
+    font-size:xx-large;
+}
+#button1{
+    position:absolute;
+    top:250px;
+    left:330px;
+    width:190px;
+    height:190px;
+    background-image:url(../resourse/bluebutton1.png);
+    background-repeat:no-repeat;
+}
+#button2 {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    width: 190px;
+    height: 190px;
+    background-image: url(../resourse/bluebutton2.png);
+    background-repeat: no-repeat;
+}
+#button3 {
+    position: absolute;
+    top: 250px;
+    left: 670px;
+    width: 190px;
+    height: 190px;
+    background-image: url(../resourse/bluebutton3.png);
+    background-repeat: no-repeat;
+}
+#button4 {
+    position: absolute;
+    top: 250px;
+    left: 860px;
+    width: 190px;
+    height: 190px;
+    background-image: url(../resourse/bluebutton4.png);
+    background-repeat: no-repeat;
+}
+#button5 {
+    position: absolute;
+    top: 350px;
+    left: 1030px;
+    width: 190px;
+    height: 190px;
+    background-image: url(../resourse/bluebutton5.png);
+    background-repeat: no-repeat;
+}
