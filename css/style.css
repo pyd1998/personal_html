@@ -7,6 +7,35 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.rotates:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+.rotatesY:hover {
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    text-shadow:3px 3px 3px #ffd800;
+}
+.translates:hover{
+    transform:translate(0px,-30px);
+    -webkit-transform:translate(0px,-30px);
+    -moz-transform:translate(0px,-30px);
+    -o-transform:rotate(0px,-30px);
+}
+.scales:hover{
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -moz-transform:scale(1.2,1.2);
+    -o-transform:scale(1.2,1.2);
+}
+.addwidth:hover {
+    text-shadow: 1px 1px 1px #225d76;
+    background-color: #ffffff;
+}
 #famouswords{
     position:absolute;
     top:120px;
@@ -15,6 +44,11 @@
     height:100px;
     font-size:xx-large;
     font-style:italic;
+    transition:all 1s linear;
+    -webkit-transition:all 1s linear;
+    -moz-transition:all 1s liner;
+    -o-transition:all 1s liner;
+    text-align:center;
 }
 #hellowords{
     position:absolute;
@@ -28,20 +62,28 @@
 #welcomewords {
     position: absolute;
     top: 600px;
-    left: 420px;
+    left: 400px;
     width: 500px;
     height: 100px;
     text-shadow: 3px 3px 3px #ff0000;
     font-size:xx-large;
+    text-align:center;
 }
-#button1{
-    position:absolute;
-    top:250px;
-    left:330px;
-    width:190px;
-    height:190px;
-    background-image:url(../resourse/bluebutton1.png);
-    background-repeat:no-repeat;
+#button1 {
+    position: absolute;
+    top: 250px;
+    left: 330px;
+    width: 190px;
+    height: 190px;
+    background-image: url(../resourse/bluebutton1.png);
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linera;
+    -o-transition: all 0.5s linear;
+    padding:80px 0;
+    text-align: center;
+    font-size:large;
 }
 #button2 {
     position: absolute;
@@ -51,6 +93,13 @@
     height: 190px;
     background-image: url(../resourse/bluebutton2.png);
     background-repeat: no-repeat;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    line-height: 190px;
+    text-align:center;
+    font-size:large;
 }
 #button3 {
     position: absolute;
@@ -60,6 +109,13 @@
     height: 190px;
     background-image: url(../resourse/bluebutton3.png);
     background-repeat: no-repeat;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    line-height: 190px;
+    text-align: center;
+    font-size:large;
 }
 #button4 {
     position: absolute;
@@ -69,6 +125,13 @@
     height: 190px;
     background-image: url(../resourse/bluebutton4.png);
     background-repeat: no-repeat;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    line-height: 190px;
+    text-align: center;
+    font-size:large;
 }
 #button5 {
     position: absolute;
@@ -78,4 +141,22 @@
     height: 190px;
     background-image: url(../resourse/bluebutton5.png);
     background-repeat: no-repeat;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    line-height: 190px;
+    text-align: center;
+    font-size:large;
+}
+#contact {
+    position: absolute;
+    top: 850px;
+    left: 100px;
+    width: 480px;
+    height: 50px;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
 }
